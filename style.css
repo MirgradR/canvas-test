@@ -1,0 +1,32 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.table-content>div {
+    display: flex;
+    margin-right: 15px;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.table-content th {
+    width: 150px;
+}
+canvas {
+    border: 1px solid black;
+    padding: 10px;
+}
+.canvas-wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
